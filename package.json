@@ -1,0 +1,13 @@
+{
+  "name": "devchallenge-api",
+  "version": "1.0.0",
+  "description": "Dev Challenge Backend API",
+  "main": "index.js",
+  "repository": "https://github.com/Ruanrls/devchallenge-api.git",
+  "author": "DevChallenge Corp",
+  "license": "GNU V3",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "prettier": "^2.3.2"
+  }
+}
