@@ -18,5 +18,8 @@ model Challenge {
 
 model Dev {
   id String @id @default(uuid()) @map("_id") @db.ObjectId
+  avatarUrl String
+  url String
+  name String
   createdAt DateTime @default(now())
 }
