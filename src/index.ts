@@ -1,4 +1,6 @@
-require('dotenv').config()
+import dotenv from 'dotenv'
+dotenv.config()
+
 import { app } from './infra/webserver'
 import './presentation/routes/index'
 
