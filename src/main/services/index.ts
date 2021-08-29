@@ -1,2 +1,2 @@
-export * from './prisma'
+export * from './dev'
 export * from './github'
