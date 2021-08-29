@@ -1,6 +1,8 @@
-import { app } from './config/app'
+require('dotenv').config()
+import { app } from './infra/webserver'
+import './presentation/routes/index'
 
-import { connectWithDatabase } from '../infra/config'
+import { connectWithDatabase } from './infra/config'
 
 connectWithDatabase()
   .then(() => {
